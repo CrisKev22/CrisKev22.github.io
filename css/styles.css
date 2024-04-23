@@ -292,11 +292,89 @@ span {
 
 /* styles.css */
 
+.footer {
+  background-color: #191c32;
+  color: #fff;
+}
+
+.a {
+  color: #fff;
+}
+
+/* Este CSS es para la semana 2 para los botones*/
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.btn-info {
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+/* Ejercicio 2*/
+.btn-facebook {
+  background-color: #3b5998;
+  color: #fff;
+}
+
+.btn-twitter {
+  background-color: #1da1f2;
+  color: #fff;
+}
+
+.btn-instagram {
+  background-color: #e4405f;
+  color: #fff;
+}
+
+.btn-linkedin {
+  background-color: #0077b5;
+  color: #fff;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+/* Ejercicio 3 */
+
 .loader-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100px; /* Altura ajustada según tu diseño */
 }
 
 .loader {
