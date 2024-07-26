@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css" />
+    <link rel="icon" href="img/foto correo.jpg" />
+  </head>
+  <body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+      <header>
+        <nav id="nav">
+          <ul>
+            <li>
+              <a href="#inicio" onclick="seleccionar()"
+                >Bienvenida e Introducción</a
+              >
+            </li>
+            <li>
+              <a href="#sobremi" onclick="seleccionar()"
+                >Información sobre mi</a
+              >
+            </li>
+            <li>
+              <a href="#pdfs" onclick="seleccionar()">Tabla de contenidos</a>
+            </li>
+            <li>
+              <a href="#curriculum" onclick="seleccionar()"
+                >Trabajos Realizados</a
+              >
+            </li>
+            <li><a href="#contacto" onclick="seleccionar()">Conclusión</a></li>
+            <li>
+              <a href="#portfolio" onclick="seleccionar()"
+                >Reflexión y Bibliografia</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+      <div class="contenido-banner">
+        <div class="contenedor-img">
+          <img src="img/foto correo.jpg" alt="" />
+        </div>
+        <h1>CRISTIAN TORRES</h1>
+        <h2>Ingeniero de Sistemas - Experto en Ciberseguridad</h2>
+      </div>
+      <div class="contenido-banner2">
+        <div>
+          <h2>Bienvenida e Introducción</h2>
+          <br />
+          <h3>
+            ¡Bienvenidos a mi Portafolio Digital del curso Desarrollo Web!
+          </h3>
+          <br />
+          <p>
+            Mi nombre es Cristian Kevin Torres Cordova, en este portafolio
+            puedes encontrar información sobre el curso de "Desarrollo Web" que
+            es impartido por el Mg. Jaime Suasnabar Terrell. En este portafolio
+            se documenta lo aprendido en el periodo academico 2024 - I. El
+            proposito del mismo es que pueda ver mi experiencia como estudiante
+            y los trabajos realizados.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+      <div class="contenido-seccion">
+        <h2>Sobre Mí</h2>
+        <p>
+          <span>Hola, soy Cristian Torres.</span> Como profesional proactivo y
+          dinámico, me destaco por mi responsabilidad y mi habilidad para
+          colaborar eficazmente en equipo. Actualmente, estoy enriqueciendo mi
+          perfil académico y técnico como estudiante de Ingeniería de Sistemas,
+          donde he adquirido conocimientos sólidos en Linux, preparándome para
+          enfrentar los retos del mundo tecnológico actual.
+        </p>
+
+        <div class="fila">
+          <!-- datos personales -->
+          <div class="col">
+            <h3>Datos Personales</h3>
+            <ul>
+              <li>
+                <strong>Cumpleaños</strong>
+                26-06-2000
+              </li>
+              <li>
+                <strong>Celular</strong>
+                <a
+                  href="https://api.whatsapp.com/send?phone=933157242&text=Hola Cristian, vengo de tu portafolio :D"
+                  target="_blank"
+                  >Enviame un mensaje</a
+                >
+              </li>
+              <li>
+                <strong>Email</strong>
+                cristiankevintorrescordova@gmail.com
+              </li>
+              <li>
+                <strong>Facebook</strong>
+                <a
+                  href="https://www.facebook.com/kevinc.torrescordova"
+                  target="_blank"
+                  >Visita mi Facebook</a
+                >
+              </li>
+              <li>
+                <strong>Linkedin</strong>
+                <a
+                  href="https://www.linkedin.com/in/cristian-kevin-torres-cordova-38a228258/"
+                  target="_blank"
+                  >Visita mi Linkedin</a
+                >
+              </li>
+              <li>
+                <strong>Ocupación</strong>
+                <span>Estudiante</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- intereses -->
+          <div class="col">
+            <h3>Intereses</h3>
+            <div class="contenedor-intereses">
+              <div class="interes">
+                <i class="fa-solid fa-gamepad"></i>
+                <span>JUEGOS</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-headphones"></i>
+                <span>MUSICA</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-plane"></i>
+                <span>VIAJAR</span>
+              </div>
+              <div class="interes">
+                <i class="fa-brands fa-apple"></i>
+                <span>MAC OS</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-person-hiking"></i>
+                <span>CAMINAR</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-book"></i>
+                <span>LEER</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-car"></i>
+                <span>CONDUCIR</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-camera"></i>
+                <span>FOTOS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="pdf/CV.pdf" download target="_blank">
+          <button>
+            Descargar CV <i class="fa-solid fa-download"></i>
+            <span class="overlay"></span>
+          </button>
+        </a>
+      </div>
+    </section>
+
+    <!-- SECCION TABLA DE CONTENIDOS -->
+    <section id="pdfs" class="pdfs">
+      <div class="contenido-seccion">
+        <h2>Tabla de contenidos</h2>
+        <div class="pdf-grid">
+          <div class="pdf-item">
+            <h5>SEMANA 1</h5>
+            <embed
+              src="pdf/CP1.pdf"
+              type="application/pdf"
+              width="100%"
+              height="100%"
+            />
+          </div>
+          <div class="pdf-item">
+            <h5>SEMANA 2</h5>
+            <embed
+              src="pdf/CP2.pdf"
+              type="application/pdf"
+              width="100%"
+              height="100%"
+            />
+          </div>
+          <div class="pdf-item">
+            <h5>SEMANA 3</h5>
+            <embed
+              src="pdf/CP3.pdf"
+              type="application/pdf"
+              width="100%"
+              height="100%"
+            />
+          </div>
+          <div class="pdf-item">
+            <h5>SEMANA 4</h5>
+            <embed
+              src="pdf/CP4.pdf"
+              type="application/pdf"
+              width="100%"
+              height="100%"
+            />
+          </div>
+          <div class="pdf-item">
+            <h5>SEMANA 5</h5>
+            <embed
+              src="pdf/CP5.pdf"
+              type="application/pdf"
+              width="100%"
+              height="100%"
+            />
+          </div>
+          <div class="pdf-item">
+            <h5>SEMANA 6</h5>
+            <embed
+              src="pdf/CP6.pdf"
+              type="application/pdf"
+              width="100%"
+              height="100%"
+            />
+          </div>
+        </div>
+        <br /><b></b>
+        <div class="pdf-grid">
+          <div class="pdf-item">
+            <h5>SEMANA 7</h5>
+            <embed
+              src="pdf/CP7.pdf"
+              type="application/pdf"
+              width="100%"
+              height="100%"
+            />
+          </div>
+          <div class="pdf-item">
+            <h5>SEMANA 9</h5>
+            <embed
+              src="pdf/CP9.pdf"
+              type="application/pdf"
+              width="100%"
+              height="100%"
+            />
+          </div>
+          <div class="pdf-item">
+            <h5>SEMANA 10</h5>
+            <embed
+              src="pdf/CP10.pdf"
+              type="application/pdf"
+              width="100%"
+              height="100%"
+            />
+          </div>
+          <div class="pdf-item">
+            <h5>SEMANA 11</h5>
+            <embed
+              src="pdf/CP11.pdf"
+              type="application/pdf"
+              width="100%"
+              height="100%"
+            />
+          </div>
+          <div class="pdf-item">
+            <h5>SEMANA 12</h5>
+            <embed
+              src="pdf/CP12.pdf"
+              type="application/pdf"
+              width="100%"
+              height="100%"
+            />
+          </div>
+          <div class="pdf-item">
+            <h5>SEMANA 13</h5>
+            <embed
+              src="pdf/CP13.pdf"
+              type="application/pdf"
+              width="100%"
+              height="100%"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECCION TRABAJOS REALIZADOS-->
+    <section id="curriculum" class="curriculum">
+      <div class="contenido-seccion">
+        <h2>Trabajos Realizados</h2>
+        <div class="fila">
+          <div class="col izquierda">
+            <div class="item izq">
+              <h4>Semana 1</h4>
+              <span class="casa">Fundamentos de las tecnologías web</span>
+              <span class="fecha">8 al 12 de abril</span>
+              <p>
+                En la primera semana conocimos cuales son las tecnologías web,
+                tambien vimos conceptos de desarrollador backend y frontend.
+                Hicimos la instalación de Visual Studio Code, uso de extensiones
+                y atajos de teclado con Emmet.
+              </p>
+              <br />
+              <div>
+                <a href="semana1.html" class="boton-navegar">Ver página</a>
+              </div>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Semana 3</h4>
+              <span class="casa">CSS Bootstrap y Tailwind</span>
+              <span class="fecha">22 al 26 de abril</span>
+              <p>
+                En la semana 3 se desarrollo la creación de paginas Web con el
+                uso de librerias, en este caso se usaron 2 librerias: Librería
+                de CSS Bootstrap y Librería CSS Tailwind. El uso de las
+                librerias optimiza el tiempo para la creación de las páginas.
+              </p>
+              <br />
+              <div>
+                <a href="semana3.html" class="boton-navegar">Ver página</a>
+              </div>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Semana 5</h4>
+              <span class="casa">Aplicación FrontEnd con Framework JS</span>
+              <span class="fecha">6 al 10 de mayo</span>
+              <p>
+                En esta semana se hizo la estructura y operación de Framework,
+                realizamos la gestión de dependencias y el desarrollo basado en
+                componentes - JSX / PROPS / CHILDREN. La utilización de estilos
+                en Framework JS, pasar datos con props y children.
+              </p>
+              <br />
+              <div>
+                <a href="semana5.html" class="boton-navegar">Ver página</a>
+              </div>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col derecha">
+            <div class="item der">
+              <h4>Semana 2</h4>
+              <span class="casa">Página con HTML y XML</span>
+              <span class="fecha">15 al 19 de abril</span>
+              <p>
+                En la segunda semana conocimos las etiquetas principales de
+                HTML5, el ciclo de vida de una página web, optimización en
+                motores de busqueda SEO y la compatibilidad con los navegadores.
+                Se diseño pagina web con Hojas de Estilo.
+              </p>
+              <br /><br />
+              <div>
+                <a href="semana2.html" class="boton-navegar">Ver página</a>
+              </div>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Semana 4</h4>
+              <span class="casa">Página Web con Javascript</span>
+              <span class="fecha">29 de abril al 3 de mayo</span>
+              <p>
+                En esta semana conocimos más acerca de Javascript, asi como sus
+                variables y operadores, estructura de controles y bucles. Se
+                hizo el DOM con Javascript y Canvas, se hizo desarrollo de una
+                animación con Javascript.
+              </p>
+              <br />
+              <div>
+                <a href="semana4.html" class="boton-navegar">Ver página</a>
+              </div>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Semana 6</h4>
+              <span class="casa"
+                >Desarrollo de Aplicaciones con Eventos, Condicionales</span
+              >
+              <span class="fecha">13 al 17 de mayo</span>
+              <p>
+                En esta semana se reviso el uso de Eventos, Renderizado
+                condicional, Renderizado Iterativo, Formularios. El consumo de
+                API's. El evento y renderizado condicional e iterativo con datos
+                de una API.
+              </p>
+              <br />
+              <div>
+                <a href="semana6.html" class="boton-navegar">Ver página</a>
+              </div>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="fila">
+          <div class="col izquierda">
+            <div class="item izq">
+              <h4>Semana 7</h4>
+              <span class="casa">Uso de Hooks</span>
+              <span class="fecha">20 al 24 de mayo</span>
+              <p>
+                En la semana 7 vimos el uso de Hooks y cuales son
+                funcionalidades, estudiamos y practicamos con los Hooks mas
+                conocidos: UseState / UseEffect / UseContext / UseRef /
+                UseReducer / UseCallback / useMemo Hooks Personalizados
+              </p>
+              <br />
+              <div>
+                <a href="semana7.html" class="boton-navegar">Ver página</a>
+              </div>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Semana 10</h4>
+              <span class="casa">Next JS - CSR / SSR</span>
+              <span class="fecha">10 al 14 de junio</span>
+              <p>
+                En la semana 10 estudiamos el tema de Next JS, realizamos la
+                creación de un proyecto, tambien el routing en Next, los
+                diferentes estilos que maneja, el uso de formularios y el uso de
+                Typescript. Realizamos ejercicios practicos para ello.
+              </p>
+              <br />
+              <div>
+                <a href="semana10.html" class="boton-navegar">Ver página</a>
+              </div>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Semana 12</h4>
+              <span class="casa"
+                >Desarrollo Backend con Spring Core y Spring Boot</span
+              >
+              <span class="fecha">24 al 28 de junio</span>
+              <p>
+                En la semana 12 desarrollamos el Backend, la arquitectura de
+                aplicaciones web, servidores web, funcionamiento del server
+                side, lenguaje y framework backend. Java y Jakarta. IntelliJ
+                Idea, Tom Cat.
+              </p>
+              <br /><br />
+              <div>
+                <a href="semana12.html" class="boton-navegar">Ver página</a>
+              </div>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col derecha">
+            <div class="item der">
+              <h4>Semana 9</h4>
+              <span class="casa">Next JS - CSR / SSR</span>
+              <span class="fecha">3 al 7 de junio</span>
+              <p>
+                En la semana 9 revisamos lo que es Next JS - CSR / SSR,
+                revisamos la creación del proyecto, tambien el routing en Next,
+                el ingeniero nos enseño los estilos, nos enseño la creación de
+                formularios, tambien nos enseño el lenguaje Typescript.
+              </p>
+              <br /><br />
+              <div>
+                <a href="semana9.html" class="boton-navegar">Ver página</a>
+              </div>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Semana 11</h4>
+              <span class="casa">Server Side Props - Next Auth</span>
+              <span class="fecha">17 al 21 de junio</span>
+              <p>
+                En la semana 11 revisamos todo lo que es el Server SideProps, el
+                ingeniero nos enseño la instalación, configuración, obtener
+                información de la sesión, proveedor, credenciales, callbacks,
+                verificar credenciales. Creación de usuario basado en OAuth,
+                login personalizado, Middlewares.
+              </p>
+              <br />
+              <div>
+                <a href="semana11.html" class="boton-navegar">Ver página</a>
+              </div>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Semana 13</h4>
+              <span class="casa">Desarrollar API Rest con Spring</span>
+              <span class="fecha">1 al 5 de julio</span>
+              <p>
+                En la semana 13 aprendimos a desarrollar un API Rest con Spring,
+                el conocimiento de protocolo HTTP, MVC, nos enseño acerca de la
+                Arquitectura API Rest, conceptos basicos, funcionamiento e
+                importancia y rol que tiene en la programación hoy en dia.
+              </p>
+              <br /><br />
+              <div>
+                <a href="semana13.html" class="boton-navegar">Ver página</a>
+              </div>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION CONCLUSIÓN-->
+    <section id="contacto" class="contacto">
+      <div class="contenido-seccion">
+        <h2>CONCLUSIÓN</h2>
+        <div>
+          <p>
+            Durante este primer semestre aprendi los conceptos básicos de
+            desarrollo de programación, HTML, CSS y JavaScript. Pude demostrar
+            mi conocimiento mediante la creación de mi portafolio personal del
+            curso, eso me ayudo a reforzar mis conocimientos ya que mientras más
+            practico siento que aprendo mas. Tambien aprendi lo básico acerca
+            del uso de Librerias. Considero que es importante profundizar cada
+            tema de manera personal ya que hay muchas cosas que expicar y que al
+            docente no le alcanza el tiempo para poder explicarnos todo.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION REFLEXIÓN Y BIBLIOGRAFÍA-->
+    <section id="portfolio" class="portfolio">
+      <div class="contenido-seccion">
+        <h2>REFLEXIÓN Y BIBLIOGRAFÍA</h2>
+        <div class="galeria">
+          <div class="proyecto">
+            <img src="img/fis.webp" alt="" />
+            <div class="overlay">
+              <h3>Semana 1</h3>
+              <br />
+              <h5>¿Que aprendi?</h5>
+              <p>Fundamentos de las tecnologías web</p>
+              <br />
+
+              <h5>¿Cómo aprendi?</h5>
+              <p>Mediante las clases y herramientas de internet.</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/fis.webp" alt="" />
+            <div class="overlay">
+              <h3>Semana 2</h3>
+              <br />
+              <h5>¿Qué aprendí?</h5>
+              <p>Página con HTML y XML</p>
+              <br />
+              <h5>¿Cómo aprendí?</h5>
+              <p>Mediante clases y herramientas en linea.</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/fis.webp" alt="" />
+            <div class="overlay">
+              <h3>Semana 3</h3>
+              <br />
+              <h5>¿Que aprendi?</h5>
+              <p>CSS Bootstrap y Tailwind</p>
+              <br />
+              <h5>¿Como aprendi?</h5>
+              <p>Con videos tutoriales de Youtube y heramientas online.</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/fis.webp" alt="" />
+            <div class="overlay">
+              <h3>Semana 4</h3>
+              <br />
+              <h5>¿Qué aprendi?</h5>
+              <p>Página Web con Javascript</p>
+              <br />
+              <h5>¿Cómo aprendi?</h5>
+              <p>Herramientas de Internet</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/fis.webp" alt="" />
+            <div class="overlay">
+              <h3>Semana 5</h3>
+              <br />
+              <h5>¿Qué aprendi?</h5>
+              <p>Aplicación FrontEnd con Framework JS</p>
+              <br />
+              <h5>¿Cómo aprendi?</h5>
+              <p>Clases del docente y videos de Youtube</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/fis.webp" alt="" />
+            <div class="overlay">
+              <h3>Semana 6</h3>
+              <br />
+              <h5>¿Qué aprendi?</h5>
+              <p>Desarrollo de Aplicaciones con Eventos, Condicionales</p>
+              <br />
+              <h5>¿Cómo aprendi?</h5>
+              <p>Practicas dirigidas con el docente.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+      </a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
